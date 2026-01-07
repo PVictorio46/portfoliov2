@@ -43,7 +43,7 @@ body * {
   max-width: 588px;
 
   margin: auto;
-  padding: 0 24px;
+  padding: 0 36px;
 }
 /*profile */
 #profile {
@@ -52,12 +52,12 @@ body * {
 }
 
 #profile img {
-  width: 112px;
+  width: 164px;
 }
 
 #profile p {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 24px;
   margin-top: 8px;
 }
@@ -65,18 +65,16 @@ body * {
 /*switch*/
 #switch {
   position: relative;
-  width: 64px;
-
-  margin: 4px auto;
+  width: 80px;
+  margin: 64px auto;
 }
 
 #switch button {
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
-
   position: absolute;
   top: 50%;
   left: 0;
@@ -109,16 +107,16 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 
-  padding: 24px 0;
+  padding: 48px 0;
 }
 ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  padding: 16px 24px;
+  padding: 20px 30px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
@@ -143,7 +141,7 @@ ul li a:hover {
 
   padding: 24px 0;
 
-  font-size: 24px;
+  font-size: 36px;
 }
 
 #social-links a {
