@@ -187,3 +187,28 @@ footer {
     left: 0%;
   }
 }
+
+/* ===== PÁGINA DE PROJETOS ===== */
+
+.projects-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.projects-page h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 28px;
+}
+
+.projects-page ul li a {
+  padding: 28px 40px;
+  font-size: 18px;
+}
+
+.projects-page ul {
+  gap: 28px;
+}
+
